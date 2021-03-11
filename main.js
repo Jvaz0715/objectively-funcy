@@ -77,6 +77,23 @@ marry(person1, person2)
 console.log(person1)
 console.log(person2)*/
 
+// divorce
+// changes marital status to false and removes teh spouseName property from both given people
+
+function divorce(person1, person2) {
+  person1.married = false;
+  person2.married = false;
+
+  delete person1.spouseName
+  delete person2.spouseName;
+}
+
+/*const person1 = {firstName: 'Colin', lastName: 'Jaffe', married: true, spouseName: 'Petra Solano'}
+const person2 = {firstName: 'Petra', lastName: 'Solano', married: true, spouseName: 'Colin Jaffe'}
+divorce(person1, person2);
+console.log(person1)
+console.log(person2)*/
+
 
 
 // Our code here. Don't touch!
