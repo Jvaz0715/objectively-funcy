@@ -7,7 +7,18 @@ function getFirstName(object) {
   return object.firstName;
 }
 
-console.log(getFirstName({firstName: 'Colin', lastName: 'Jaffe'}))
+//console.log(getFirstName({firstName: 'Colin', lastName: 'Jaffe'}))
+
+// getLastName
+// returns the value of the lastName property of the given person object
+
+function getLastName(object) {
+  return object.lastName;
+}
+
+// console.log(getLastName({firstName: 'Colin', lastName: 'Jaffe'}))
+
+
 
 
 
