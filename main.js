@@ -56,8 +56,26 @@ function giveBirthday(object) {
   }
 }
 
-console.log(giveBirthday({firstName: 'Colin', lastName: 'Jaffe', age: 39}))
-console.log(giveBirthday({firstName: 'Baby', lastName: 'Jaffe'}))
+//console.log(giveBirthday({firstName: 'Colin', lastName: 'Jaffe', age: 39}))
+//console.log(giveBirthday({firstName: 'Baby', lastName: 'Jaffe'}))
+
+//marry function
+// sets the marital status of both given people to true and sets each persons spousename property to the full name of the other
+
+function marry(person1, person2) {
+  person1.married = true;
+  person2.married = true;
+
+  person1.spouseName = getFullName(person2);
+  person2.spouseName = getFullName(person1);
+}
+
+/*const person1 = {firstName: 'Colin', lastName: 'Jaffe', married: false}
+const person2 = {firstName: 'Petra', lastName: 'Solano', married: false}
+
+marry(person1, person2)
+console.log(person1)
+console.log(person2)*/
 
 
 
