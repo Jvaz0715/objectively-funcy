@@ -1,5 +1,13 @@
 // Your code here.
 
+// getFirstName
+// returns the value of the firstName property of the given person object
+
+function getFirstName(object) {
+  return object.firstName;
+}
+
+console.log(getFirstName({firstName: 'Colin', lastName: 'Jaffe'}))
 
 
 
