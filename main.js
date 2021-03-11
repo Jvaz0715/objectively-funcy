@@ -18,6 +18,15 @@ function getLastName(object) {
 
 // console.log(getLastName({firstName: 'Colin', lastName: 'Jaffe'}))
 
+// getFullName
+
+function getFullName(object) {
+  let first = object.firstName;
+  let last = object.lastName;
+
+  return `${first} ${last}`
+}
+
 
 
 
